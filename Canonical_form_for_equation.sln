@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canonical_form_for_equation", "Canonical_form_for_equation\Canonical_form_for_equation.csproj", "{77404EA6-2AA0-4FBF-8849-142E639B1D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canonical_form_for_equation_test", "Canonical_form_for_equation_test\Canonical_form_for_equation_test.csproj", "{2B0EC5BA-7C4A-4774-AF25-0341E2685EA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77404EA6-2AA0-4FBF-8849-142E639B1D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77404EA6-2AA0-4FBF-8849-142E639B1D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77404EA6-2AA0-4FBF-8849-142E639B1D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77404EA6-2AA0-4FBF-8849-142E639B1D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0EC5BA-7C4A-4774-AF25-0341E2685EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0EC5BA-7C4A-4774-AF25-0341E2685EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0EC5BA-7C4A-4774-AF25-0341E2685EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0EC5BA-7C4A-4774-AF25-0341E2685EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCEDE96B-301E-4D66-A73B-4DB87E902857}
+	EndGlobalSection
+EndGlobal
