@@ -501,7 +501,16 @@ namespace Canonical_form_for_equation
                                             summ += $"{B.Item2}^{B.Item3}";
                                         else if (B.Item2 == "")
                                             summ += $"{A.Item2}^{A.Item3}";
-                                        else summ = $"{b}*{a}";
+                                        else 
+                                        {
+                                            var coefA = A.Item1;
+                                            var coefB = B.Item1;
+
+                                            var varifA = a.StartsWith(coefA.ToString()) ? a.Substring(coefA.ToString().Length, a.Length - coefA.ToString().Length) : a;
+                                            var varifB = b.StartsWith(coefB.ToString()) ? b.Substring(coefB.ToString().Length, b.Length - coefB.ToString().Length) : b;
+
+                                            summ = $"{coefA*coefB}{varifB}{varifA}";
+                                        }
                                     }
                                     else
                                     {
